@@ -9,6 +9,7 @@ Download the gitlabissues.widget, configure `index.jsx` (see below) and copy it 
 ## Widget configuration
 
 The following configuration options are available in the `params` object:
+
 	* gitlab_url:  the base URL of your gitlab instance
 	* access_token:  the personal access token of your user.  See [gitlab.com](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html) for generating this token
   * project_id:  the ID of the project from which to retrieve issues
