@@ -1,6 +1,6 @@
 # Übersicht GitlabIssues Widget
 
-Display open Gitlab issues 
+Display open Gitlab issues.  Based on the [GitIssues](https://github.com/nathanlesage/ubersicht-gitissues) widget.
 
 ## Installation
 
