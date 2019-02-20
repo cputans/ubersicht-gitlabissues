@@ -32,7 +32,7 @@ export const command = (dispatch) =>
       dispatch({ type: 'FETCH_FAILED', error: error });
     });
 
-export const refreshFrequency = (params.update_frequency * 60000); 
+export const refreshFrequency = parseInt(params.update_frequency * 60000); 
 
 export const render = (data) => {
   return data.error ? (
